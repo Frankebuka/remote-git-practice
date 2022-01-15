@@ -1,0 +1,322 @@
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+#sidebar {
+        margin-left: -250px;
+}
+#sidebar.active {
+        margin-left: 0;
+}
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar {
+    /* don't forget to add all the previously mentioned styles here too */
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #6d7fcc;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: #6d7fcc;
+}
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.hello {
+    background-image: url(../images/hero-desktop.jpg);
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    height: 550px;
+    color: #fff;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+    /* background-color: #fafafa; */
+    background-color: brown;
+}
+
+.navbar-mg li {
+    margin-right: 30px;
+}
+a.nav-color {
+    color: rgb(24, 20, 20);
+    font-weight: 700;
+}
+.navbar-bg {
+    background: rgb(94, 27, 30);
+}
+  /* header content */
+.header-content {
+    max-width: 500px;
+    margin: 150px auto;
+    color: #fff;
+    text-align: center;
+   
+}
+.header-content h1 {
+    font-size: 40px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #fff;
+    /* font-weight: bold; */
+}
+.header-content p {
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200;
+    color: #fff;
+}
+  
+/* .active {
+    border: 2px solid;
+    padding: 0.1rem 0.8rem;
+    color: #e64648;
+} */
+  
+  /* footer */
+.row-footer {
+    background: brown;
+    text-align: center;
+    color: #fff;
+}
+.footer-icons a {
+    color: #fff;
+}
+
+#land {
+      color: white;
+}
+
+.lan {
+    color: white;
+}
+
+#yes {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+#no {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer {
+    background-color: brown;
+    padding-top: 20px;
+    margin: none;
+}
+
+.col-md-4 {
+    margin-left: -15px;
+}
+
+.thanks {
+    /* background-image: url(images/office.jpg); */
+    /* background-color: rgb(167, 160, 160); */
+    background-color: white;
+}
+
+.go {
+    padding-top: 50px;
+    text-align: center;
+}
+
+span {
+    color: #6d7fcc;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.foot2 {
+    justify-content: space-between;
+    text-align: right;
+}
+
+.navbar-domain-name {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.foot1 {
+    text-align: left;
+}
+
+
+
+.propertise {
+    text-align: center;
+}
+
+.propertise1 {
+    text-align: center;
+}
+
+.ok {
+    padding-top: 50px;
+}
+
+.state {
+    text-align: center;
+}
+
+.jumbo {
+    background-image: url(../images/hero-desktop1.jpg);
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-position: center;
+    height: 400px;
+    color: #fff;
+}
+
+.jumb {
+    background-image: url(../images/header-new3.jpg);
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-position: center;
+    height: 400px;
+    color: #fff;
+}
+
+/* media */
+
+@media only screen and (max-width: 768px) {
+   .header-content-flex{
+      position: absolute;
+      top: 140px;
+      /* left: 30px; */
+   }
+   .navbar ul{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+   }
+   .text-center {
+    margin-right: 60px;
+   }
+ }
+ 
+ @media only screen and (max-width: 480px) {
+    .header-content-flex{
+       position: absolute;
+       top: -150px;
+       /* left: 30px; */
+    }
+    .navbar ul{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+    }
+    .text-center {
+     margin-right: 30px;
+    }
+    .hello {
+        background-image: url(../images/hero-desktop.jpg);
+        text-align: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode: overlay;
+        height: 450px;
+        color: #fff;
+    }
+  }
